@@ -5,7 +5,7 @@ import numpy as np
 
 
 def build_model(is_cuda):
-    net = cv2.dnn.readNet("./config_files/yolov5s.onnx")
+    net = cv2.dnn.readNet("./config_files/yolov5n.onnx")
     if is_cuda:
         print("Attempty to use CUDA")
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
