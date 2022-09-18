@@ -101,27 +101,3 @@ class yolov5ObjectDetector :
 
         return image  
 
-
-# For Local Usage    
-# if __name__ == '__main__' :
-
-#     yoloModelFile = 'config_files/yolov5s.onnx' # The yolov5 onnx model compatible with opencv
-#     yoloClassConfigFile = "config_files/classes.txt" # The classes names for the detection
-#     image_to_be_detected = "./test1.jpg" # inference image
-#     detectedImageName = "./inference.jpg"
-#     imageScaling = 640
-#     verbose = -1
-
-#     yolov5 = yolov5ObjectDetector(
-#         model_location=yoloModelFile, 
-#         class_config_file_location=yoloClassConfigFile, 
-#         image_to_detect=image_to_be_detected, 
-#         image_scaling_factor=imageScaling, 
-#         detected_image_naming=detectedImageName, 
-#         verbosity=verbose
-#         )
-    
-#     image = yolov5.performDetection()
-#     cv2.imshow("window", image)
-#     cv2.waitKey(0)
-
