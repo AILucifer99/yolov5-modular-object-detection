@@ -1,7 +1,7 @@
-## yolov5-modular-object-detection
+# yolov5-modular-object-detection
 An implementation of the yolov5 object detection using modular approach via conversion to onnx model
 
-## Usage guidelines
+# Usage guidelines
 # Cloaning the repository
 After cloaning the repository with git clone command, add custom images to the Inference-Images folder. 
 
