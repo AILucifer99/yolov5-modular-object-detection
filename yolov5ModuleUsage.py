@@ -2,7 +2,7 @@ from yolov5Module import yolov5ObjectDetector
 import cv2
 
 
-yoloModelFile = 'config_files/yolov5s.onnx' # The yolov5 onnx model compatible with opencv
+yoloModelFile = 'config_files/yolov5n.onnx' # The yolov5 onnx model compatible with opencv
 yoloClassConfigFile = "config_files/classes.txt" # The classes names for the detection
 image_to_be_detected = "./Inference-Images/test2.jpg" # inference image
 detectedImageName = "./Results/detected-image-2.jpg"
