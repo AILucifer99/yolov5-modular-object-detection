@@ -3,7 +3,7 @@ import cv2
 
 # step 1 - load the model
 
-net = cv2.dnn.readNet('config_files/yolov5s.onnx')
+net = cv2.dnn.readNet('config_files/yolov5n.onnx')
 
 # step 2 - feed a 640x640 image to get predictions
 
